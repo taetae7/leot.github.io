@@ -91,16 +91,36 @@ input, select {
 }
 
 /* Start Here */
+.wrapper {
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.logowrapper {
+    
+}
+
 .logo {
     width: 10%;
 }
 
-.wrapper {
-
+nav {
+    display: inline-block;
+    width: 50%;
+    color: #1c1c1c;
+    padding-top: 10px;
+    line-height: 38px;
 }
 
-nav {
+nav ul li {
+    list-style: none;
+}
 
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #1c1c1c;
 }
 
 h1 {
